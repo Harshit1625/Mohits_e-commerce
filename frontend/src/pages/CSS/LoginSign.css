@@ -1,0 +1,110 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    background: #fce3fe;
+    padding-top: 100px;
+}
+.loginSignContainer{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.loginSignContainer h1{
+    margin: 20px 0;
+}
+.loginSign-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginSign-fields input{
+    width: 100%;
+    height: 72px;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.loginSignContainer button{
+    margin-top: 30px;
+    width: 580px;
+    height: 72px;
+    color: white;
+    background-color: #ff4141;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginSign-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginSign-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+.loginsign-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff4141;
+}
+@media(max-width: 1280px){
+    .login{
+        padding-top: 50px;
+    }
+    .loginSignContainer{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .loginSignContainer h1{
+        margin: 10px 0;
+    }
+    .loginSign-fields{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .loginSign-fields input{
+        height: 65px;
+        width: 93%;
+    }
+    .loginSignContainer button{
+        width: 100%;
+    }
+    .loginSign-login{
+        font-size: 16px;
+    }
+    .loginsign-agree{
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+@media(max-width: 800px){
+    .loginSignContainer{
+        padding: 20px 30px;
+    }
+    .loginSignContainer h1{
+        font-size: 24px;
+    }
+    .loginSign-fields{
+        margin-top: 20px;
+    }
+    .loginSign-fields input{
+        height: 50px;
+    }
+    .loginSignContainer button{
+        height: 50px;
+        font-size: 16px;
+    }
+}
