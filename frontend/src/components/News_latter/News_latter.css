@@ -1,0 +1,144 @@
+.news-latter{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    gap: 30px;
+}
+.news-latter h1{
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+}
+.news-latter p{
+    color: #454545;
+    font-size: 20px;
+}
+.news-latter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border: 1px solid #e3e3e3;
+    border-radius: 80px;
+}
+.news-latter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.news-latter div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+@media(max-width:1280px){
+    .news-latter{
+        padding: 0 80px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+    .news-latter h1{
+        font-size: 36px;
+    }
+    .news-latter p{
+        font-size: 16px;
+    }
+    .news-latter div{
+        width: 600px;
+        height: 60px;
+    }
+    .news-latter div input{
+        width: 400px;
+    }
+    .news-latter div button{
+        width: 160px;
+        height: 60px;
+    }
+}
+@media(max-width: 1024px){
+    .news-latter{
+        margin-bottom: 60px;
+    }
+    .news-latter h1{
+        font-size: 30px;
+    }
+    .news-latter p{
+        font-size: 14px;
+    }
+    .news-latter div{
+        width: 500px;
+        height: 50px;
+    }
+    .news-latter div input{
+        width: 300px;
+        font-size: 14px;
+    }
+    .news-latter div button{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+@media(max-width: 800px){
+    .news-latter{
+        margin-bottom: 30px;
+        height: 35vh;
+    }
+    .news-latter h1{
+        font-size: 18px;
+    }
+    .news-latter p{
+        font-size: 12px;
+    }
+    .news-latter div{
+        width: 400px;
+        height: 40px;
+    }
+    .news-latter div input{
+        width: 200px;
+        font-size: 13px;
+    }
+    .news-latter div button{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+@media(max-width: 500px){
+    .news-latter{
+        padding: 0;
+        gap: 15px;
+        height: 25vh;
+        width: 100%;
+    }
+    .news-latter h1{
+        font-size: 16px;
+    }
+    .news-latter p{
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+    .news-latter div{
+        width: 290px;
+    }
+    .news-latter div input{
+        width: 130px;
+    }
+}
